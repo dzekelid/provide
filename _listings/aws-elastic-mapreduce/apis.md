@@ -13,11 +13,37 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Provide
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/provide/master/_listings/aws-elastic-mapreduce/apis.md
 specificationVersion: "0.14"
 apis:
+- name: AWS Elastic MapReduce API - Describe Cluster
+  x-api-slug: actiondescribecluster-get
+  description: Provides cluster-level details including status, hardware and software
+    configuration, VPC settings, and so on.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonEMR.png
+  humanURL: https://aws.amazon.com/emr/
+  baseURL: :///
+  tags: Amazon Web Services, Data, MapReduce, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Databases, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/provide/master/_listings/aws-elastic-mapreduce/actiondescribecluster-get-openapi.md
+- name: AWS Elastic MapReduce API - Describe Security Configuration
+  x-api-slug: actiondescribesecurityconfiguration-get
+  description: Provides the details of a security configuration by returning the configuration
+    JSON.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonEMR.png
+  humanURL: https://aws.amazon.com/emr/
+  baseURL: :///
+  tags: Amazon Web Services, Data, MapReduce, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Databases, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/provide/master/_listings/aws-elastic-mapreduce/actiondescribesecurityconfiguration-get-openapi.md
 - name: AWS Elastic MapReduce API - Describe Step
   x-api-slug: actiondescribestep-get
   description: Provides more detail about the cluster step.
@@ -47,6 +73,43 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/provide/master/_listings/aws-elastic-mapreduce/actionlistbootstrapactions-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/provide/master/_listings/aws-elastic-mapreduce/actionlistbootstrapactions-get-openapi.md
+- name: AWS Elastic MapReduce API - List Clusters
+  x-api-slug: actionlistclusters-get
+  description: Provides the status of all clusters visible to this AWS account.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonEMR.png
+  humanURL: https://aws.amazon.com/emr/
+  baseURL: :///
+  tags: Amazon Web Services, Data, MapReduce, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Databases, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/provide/master/_listings/aws-elastic-mapreduce/actionlistclusters-get-openapi.md
+- name: AWS Elastic MapReduce API - List Instance Groups
+  x-api-slug: actionlistinstancegroups-get
+  description: Provides all available details about the instance groups in a cluster.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonEMR.png
+  humanURL: https://aws.amazon.com/emr/
+  baseURL: :///
+  tags: Amazon Web Services, Data, MapReduce, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Databases, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/provide/master/_listings/aws-elastic-mapreduce/actionlistinstancegroups-get-openapi.md
+- name: AWS Elastic MapReduce API - List Instances
+  x-api-slug: actionlistinstances-get
+  description: "Provides information about the cluster instances that Amazon EMR provisions
+    on behalf of a user \n         when it creates the cluster."
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonEMR.png
+  humanURL: https://aws.amazon.com/emr/
+  baseURL: :///
+  tags: Amazon Web Services, Data, MapReduce, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Databases, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/provide/master/_listings/aws-elastic-mapreduce/actionlistinstances-get-openapi.md
 - name: AWS Elastic MapReduce API - List Steps
   x-api-slug: actionliststeps-get
   description: Provides a list of steps for the cluster in reverse order unless you

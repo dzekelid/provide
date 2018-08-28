@@ -11,11 +11,22 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28293-quov
 x-kinRank: "7"
 x-alexaRank: "391003"
 tags: Provide
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/provide/master/_listings/quovo/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Quovo API v3 - Get a single account
+  x-api-slug: accountsaccount-id-get
+  description: Provides information on a single account.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28293-quovo.jpg
+  humanURL: http://quovo.com
+  baseURL: https://example.com//
+  tags: SaaS, Technology, Enterprise, Financial Services, Financial, Market Data,
+    Profiles, General Data, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/provide/master/_listings/quovo/accountsaccount-id-get-openapi.md
 - name: Quovo API v3 - Get an account's transactions
   x-api-slug: accountsaccount-idtransactions-get
   description: Provides information on an account's historical transactions.
